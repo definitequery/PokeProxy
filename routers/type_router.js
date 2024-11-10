@@ -1,5 +1,5 @@
 import express from 'express';
-import { get } from '../api_service.js';
+import { get } from '../service/api_service.js';
 import { mapType } from '../mappers/type.js';
 
 const typeRouter = express.Router();
